@@ -23,7 +23,7 @@ import numpy
 #Fortune Gono
 
 #Import the loaded model in read mode
-pickle_in = open('/content/drive/My Drive/Colab Notebooks/disease_classification.pkl', 'rb')
+pickle_in = open('disease_classification.pkl', 'rb')
 classifier = pickle.load(pickle_in)
 
 def pred(symptom1,symptom2,symptom3,symptom4):
