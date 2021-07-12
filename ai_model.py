@@ -18,7 +18,7 @@ import pickle
 import pandas as pd
 import numpy
 #pip install sklearn
-from scikitlearn.metrics import classification_report
+from sklearn.metrics import classification_report
 
 #Christopher Katondo
 #Noralle Matanda
