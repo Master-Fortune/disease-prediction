@@ -17,6 +17,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 import numpy
+pip install sklearn
 from scikitlearn.metrics import classification_report
 
 #Christopher Katondo
