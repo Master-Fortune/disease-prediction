@@ -17,6 +17,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 import numpy
+import sklearn
 
 #Christopher Katondo
 #Noralle Matanda
