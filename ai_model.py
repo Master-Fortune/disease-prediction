@@ -17,7 +17,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 import numpy
-from sklearn.metrics import classification_report
+from scikitlearn.metrics import classification_report
 
 #Christopher Katondo
 #Noralle Matanda
