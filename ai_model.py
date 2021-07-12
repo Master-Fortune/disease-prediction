@@ -57,6 +57,6 @@ def main():
     st.success("output is {}".format(result))
 
 if __name__ == '__main__':
-    sy = st.multiselect("Symptoms", [['itching'],['itching', 'skin_rash,nodal_skin_eruptions'],['shivering'], ['chills'],['continuous_sneezing', 'ulcers_on_tongue'],['chills','joint_pain'],['skin_rash,nodal_skin_eruptions'],['continuous_sneezing'],['ulcers_on_tongue'], ['ulcers_on_tongue','itching'], 'skin_rash,nodal_skin_eruptions',['shivering','chills'],['joint_pain'],['stomach_pain'],['acidity']])
-    
-    main()
+	main()
+	sy = st.multiselect("Symptoms", [['itching'],['itching', 'skin_rash,nodal_skin_eruptions'],['shivering'], ['chills'],['continuous_sneezing', 'ulcers_on_tongue'],['chills','joint_pain'],['skin_rash,nodal_skin_eruptions'],['continuous_sneezing'],['ulcers_on_tongue'], ['ulcers_on_tongue','itching'], 'skin_rash,nodal_skin_eruptions',['shivering','chills'],['joint_pain'],['stomach_pain'],['acidity']])
+
